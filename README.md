@@ -19,7 +19,7 @@
   "cardHolder": "string",
   "expirationDate": "DateTime",
   "securityCode": "string",
-  "amount": decimal
+  "amount": "decimal"
 }
 ```
 This is processed and depending on what the value of amount is passed in, it gets processed as a cheap, expensive or premium payment.
